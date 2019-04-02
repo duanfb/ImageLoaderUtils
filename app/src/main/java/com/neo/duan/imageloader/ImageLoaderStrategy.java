@@ -22,7 +22,7 @@ public interface ImageLoaderStrategy {
 
     void clearImageDiskCache(Context context);
 
-    void clearIamgeMemoryCache(Context context);
+    void clearImageMemoryCache(Context context);
 
     String getCacheSize(Context context);
 
